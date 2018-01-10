@@ -11,6 +11,8 @@ do {
 		
 		}
 		console.log(star);
+		document.getElementById("tree").innerHTML += "<br>" + star;
+
 	}
 	zapytanie = prompt("Czy chcesz narysować kolejną choinkę? Wpisz tak lub nie.");
 	console.log(zapytanie);
